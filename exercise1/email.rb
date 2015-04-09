@@ -1,5 +1,5 @@
 class Email
-
+   #atributos get set
     attr_accessor :subject
     attr_accessor :date
     attr_accessor :from

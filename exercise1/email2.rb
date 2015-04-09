@@ -1,7 +1,7 @@
 class Email
-
-    attr_accessor :subject
-    attr_accessor :email_headers
+    #attr_accessor
+    attr_reader :subject
+    attr_reader :email_headers
 
     def initialize(subject, headers)
         

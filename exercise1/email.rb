@@ -1,8 +1,8 @@
 class Email
-   #atributos get set
-    attr_accessor :subject
-    attr_accessor :date
-    attr_accessor :from
+
+    attr_reader :subject
+    attr_reader :date
+    attr_reader :from
     
     def initialize(subject, date, from)
 	
